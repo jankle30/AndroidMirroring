@@ -15,8 +15,6 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *expandBarButton;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *collapseBarButton;
 
-@property (nonatomic, strong) NSString *ip;
-
 - (IBAction)expandBarButtonPressed:(id)sender;
 - (IBAction)collapseBarButtonPressed:(id)sender;
 
